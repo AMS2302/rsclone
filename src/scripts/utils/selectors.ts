@@ -1,0 +1,28 @@
+const SELECTORS = {
+    userGrid: '.grid-user',
+    computerGrid: '.grid-computer',
+    enemyGrid: '.grid-enemy',
+    displayGrid: '.grid-display',
+    ships: '.ship',
+    doubleDeckContainer: '.doubleDeck-container',
+    doubleDeckVertical: 'doubleDeck-container-vertical',
+    tripleDeckContainer: '.tripleDeck-container',
+    tripleDeckVertical: 'tripleDeck-container-vertical',
+    fourDeck: '.fourDeck-container',
+    fourDeckVertical: 'fourDeck-container-vertical',
+    turnDisplay: '#whose-go',
+    infoDisplay: '#info',
+    btnStart: '#start',
+    btnRandom: '#random',
+    btnDrop: '#drop',
+    btnRestart: '#restart',
+    rotateButton: '#rotate',
+    info: '#info',
+    levelRoute: '.level_container',
+    currentPage: '#current-page',
+    tube: '.tube',
+    rum: '.rum',
+    gun: '.gun',
+} as const;
+
+export default SELECTORS;

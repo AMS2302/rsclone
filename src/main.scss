@@ -1,0 +1,25 @@
+// abstracts
+@import "./styles/abstracts/variables";
+@import "./styles/abstracts/mixins";
+@import "./styles/abstracts/placeholders";
+
+// base
+@import "./styles/base/normalize";
+@import "./styles/base/reset";
+
+// layout
+
+// components
+@import "./styles/components/header";
+@import "./styles/components/current-page";
+@import "./styles/components/footer";
+@import "./styles/components/pop-up-window";
+@import "./styles/components/pop-up-confirm";
+@import "./styles/components/classicGameStyles";
+@import "./styles/components/menu-page";
+@import "./styles/components/authorization";
+@import "./styles/components/achives";
+@import "./styles/components/leaderboard";
+@import "./styles/components/level-route";
+@import "./styles/components/perks";
+@import "./styles/components/multiplayer";
